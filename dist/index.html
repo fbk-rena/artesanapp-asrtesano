@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css" integrity="sha256-7ojAK4IBCGMZam/HxRwhDegjN3WRHCRlShaeZassz2g=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Artesanía</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar primary-color-dark rgba-green-strong">
+            <div class="container">
+                <a class="navbar-brand wow fadeIn" href="#home">
+	                      <img src="static/assets/icons/isotype-small.png" class="mx-auto d-inline image-fluid nav-img isotype-nav">
+                        <strong class="comfortaa text-shadow">Artesanías</strong>
+                    </a>
+                <div class="collapse navbar-collapse" id="menu">
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll comfortaa">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conocenos" data-offset="100">Conócenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario" data-offset="100">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="splash">
+        <div class="wraper">
+            <img class="wraper-img" src="static/assets/icons/isotype.png" alt="">
+        </div>
+    </section>
+    <main class="container login-wraper">
+        <section class="login">
+            <h2 class="text-center">Bienvenido</h2>
+            <h5 class="no-span">Ingresa con</h5>
+            <div class="facebook-login mx-auto">
+                <a class="btn btn-lg btn-primary btn-success btn-face main-shadow " id="login-facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i> Ingresa con Facebook
+                </a>
+            </div>
+            <h5 class="no-span"> o con</h5>
+            <div class="phone-login mx-auto">
+                <label for="phoneNumber">Número celular</label>
+                <input type="phone" class="form-control" id="phoneNumber" aria-describedby="phoneHelp" placeholder="Ingresar con número celular">
+                <small id="phoneHelp" class="form-text text-muted">Ingresa los diez digitos de tu número celular</small>
+                <a href="#" data-offset="100" class="btn btn-lg btn-success btn-green main-shadow wow fadeIn">Ingresar</a>
+            </div>
+        </section>
+    </main>
+    <script src="static/jquery/dist/jquery.min.js"></script>
+    <script src="static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-shadow {
+  box-shadow: 0 8px 6px -6px #000;
+}
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: linear-gradient(#00C851, #007E33) no-repeat;
+}
+
+.splash .wraper {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 150px;
+  z-index: 1500;
+}
+
+.splash .wraper h1 {
+  color: #fdfdfd;
+}
+
+.login-wraper {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-wraper .login {
+  display: block;
+  margin: 25vh 0;
+}
+
+.login-wraper .login .no-span {
+  display: table;
+  white-space: nowrap;
+}
+
+.login-wraper .login .no-span:before, .login-wraper .login .no-span:after {
+  border-top: 1px solid green;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 45%;
+}
+
+.login-wraper .login .no-span:before {
+  right: 1.5%;
+}
+
+.login-wraper .login .no-span:after {
+  left: 1.5%;
+}
+
+.btn-face {
+  background: #4267B2;
+}
+
+.btn-green {
+  background: #00C851;
+  /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(#00C851, #007E33) no-repeat;
+  font-size: 16px;
+  min-height: 50px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #007E33;
+  /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(#007E33, #00C851) no-repeat;
+  outline: none;
+}
