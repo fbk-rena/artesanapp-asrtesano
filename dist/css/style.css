@@ -64,6 +64,10 @@ body {
   left: 1.5%;
 }
 
+.pluss {
+  color: #00C851;
+}
+
 .btn-face {
   background: #4267B2;
 }
@@ -87,4 +91,9 @@ body {
   /* Fallback for browsers that don't support gradients */
   background: linear-gradient(#007E33, #00C851) no-repeat;
   outline: none;
+}
+
+/*pagina piezas*/
+#piezas {
+  margin-top: 15vh;
 }

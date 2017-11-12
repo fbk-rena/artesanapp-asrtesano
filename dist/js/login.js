@@ -20,7 +20,7 @@ function login(provider){
 
 		console.log(+localStorage.getItem("email"))
 	}).then(function(result){
-		location.href = "signup.html"
+		location.href = "static/views/piezas.html"
 	}).catch(function(error) {
 		var errorMessage = error.message;
 		console.log('error',errorMessage)
