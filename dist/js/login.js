@@ -26,6 +26,10 @@ function login(provider){
 		console.log('error',errorMessage)
 	});
 };
+function ingresarGoogle (){
+	var provider = new firebase.auth.GoogleAuthProvider();
+	login(provider);
+}
 
 function ingresarFacebook (){
 	var provider = new firebase.auth.FacebookAuthProvider();
@@ -33,6 +37,7 @@ function ingresarFacebook (){
 };
 
 var facebook = document.querySelector("#login-facebook");
+var gmail = document.querySelector('#login-gmail');
 
 facebook.addEventListener('click', ingresarFacebook);
-
+gmail.addEventListener('click', ingresarGoogle);

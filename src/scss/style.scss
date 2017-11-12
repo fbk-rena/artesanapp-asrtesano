@@ -37,7 +37,7 @@ body {
     height: 100vh;
     .login {
         display: block;
-        margin: 25vh 0;
+        margin: 15vh 0;
         .no-span {
             display: table;
             white-space: nowrap;
@@ -63,6 +63,9 @@ body {
 }
 .btn-face{
     background:#4267B2 ;
+}
+.btn-gmail{
+    background: #E34C41;
 }
 
 .btn-green {
